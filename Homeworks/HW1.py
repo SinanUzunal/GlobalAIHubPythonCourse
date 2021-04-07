@@ -15,12 +15,12 @@ print("Final List = ",list1)
 control=True
 while control :
   n=int(input("Please input a single digit integer: "))
-  if 0<n and n<10:
+  if 0<n<10:
     for i in range(n+1):
       if (i%2==0):
         print(i)
     control=False
-  elif 0>n and n>-10:
+  elif 0>n>-10:
     for i in range(0,n-1,-1):
       if (i%2==0):
        print(i)
